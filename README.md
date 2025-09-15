@@ -26,7 +26,7 @@ Magic8Ball ball = new Magic8Ball(arr);
 	- Very doubtful.
 	- Signs point to yes.
 	- Randomly pick one for each question.
-	- Add option for user to add/remove answers.
+	- Extra Credit: Add option for user to add/remove answers.
 - Write the method `predict()` in the `Magic8Ball` class which returns a random answer from the array of `answers`. 
 - In your runner class, use the `predict()` method to create a program which asks the user for a yes or no question and prints out what the Magic 8 Ball predicted.
 
