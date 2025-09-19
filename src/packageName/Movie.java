@@ -20,4 +20,11 @@ public class Movie {
 	public void setYear(int ry) {
 		ryear = ry;
 	}
+	
+	public Movie oldMovie(Movie m1, Movie m2) {
+		if (m1.getYear() < m2.getYear()) {
+			return m1;
+		}
+		return m2;
+	}
 }
